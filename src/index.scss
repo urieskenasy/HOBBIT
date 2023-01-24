@@ -1,0 +1,19 @@
+@use './styling/mixins' as *;
+@use './styling//variables' as *;
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-family: $font-primary;
+  h1,
+  h2,
+  h3 {
+    font-family: $font-secondary;
+  }
+}
+

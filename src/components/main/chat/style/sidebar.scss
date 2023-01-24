@@ -1,0 +1,75 @@
+@import "../../../../styling/variables";
+
+.sidebar-wrapper {
+    border-right: solid 1px lighten($dark, 60%);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 22rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    .profile {
+        display: flex;
+        // flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border-bottom: solid 1px lighten($dark, 70%);
+        margin-bottom: 1rem;;
+        img {
+            height: 100px;
+            width: 100px;
+            border: solid 1px lighten($dark, 30%);
+            border-radius: 50%;
+            margin: 7px;
+            object-fit: cover;
+        }
+    }
+    .toggle-container {
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+
+        .category-btn {
+            position: relative;
+            background-color: $primary;
+            border: none;
+            margin: 10px;
+            font-size: 1rem;
+            color: $background;
+            padding: 0.5rem 1rem;
+            border-radius: 8%;
+            border-color: darken($primary, 10%);
+            text-align: center;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.6s;
+            text-decoration: none;
+            overflow: hidden;
+            cursor: pointer;
+        }
+    }
+    .sidebar-button {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .contact-list {
+        overflow-y: scroll;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+
+    .contact-list::-webkit-scrollbar {
+        display: none;
+    }
+
+    .column {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+  
+}

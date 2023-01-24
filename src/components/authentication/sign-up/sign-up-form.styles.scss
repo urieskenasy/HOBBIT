@@ -1,0 +1,16 @@
+.sign-up-container {
+    display: flex;
+    flex-flow: column;
+    margin: 2rem;
+
+    .form-container {
+        display: flex;
+        justify-items: flex-start;
+        width: 100%;
+
+        .sign-up-btn {
+            align-self: flex-end;
+            margin-top: .5rem;
+        }
+    }
+}

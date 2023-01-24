@@ -1,0 +1,64 @@
+@import '../../../../styling/variables';
+
+.home {
+    width: 100%;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.home-header {
+    text-align: center;
+    width: 100%;
+    height: 115px;
+    color: $dark;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1 {
+        margin: 0 1rem;
+        padding: .5rem .8rem;
+    }
+}
+
+#logo {
+    font-family: 'Rubik Moonrocks', cursive;;
+    // border-bottom: solid 1px $primary;
+    background-color: transparent;
+    position: relative;
+    color: $primary;
+}
+
+// #logo::before {
+//     content: ' ';
+//     position: absolute;
+//     width: 110%;
+//     height: 120px;
+//     top: -35px;
+//     left: -5px;
+//     background-image: url('../../../../../public/img/blob\ .svg');
+//     background-size: cover;
+//     background-position: center;
+// }
+// #logo::after {
+//     content: ' ';
+//     position: absolute;
+//     width: 120%;
+//     height: 150px;
+//     top: -50px;
+//     left: -5px;
+//     background-image: url('../../../../../public/img/blob-2.svg');
+//     background-size: cover;
+//     background-position: center;
+// }
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    svg {
+        color: $primary;
+        margin: auto;
+        font-size: 1.2rem;
+    }
+}

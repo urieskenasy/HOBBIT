@@ -1,0 +1,26 @@
+@import '../../styling/variables';
+
+.input-container {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+input {
+    margin: 10px 0;
+    padding: .5rem;
+    border-radius: 5px;
+    border: 1.5px solid $dark;
+}
+
+input:focus {
+    border: 1.5px solid $primary;
+    border-radius: 5px;
+    outline: none;
+  }
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+}
+

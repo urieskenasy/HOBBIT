@@ -1,0 +1,21 @@
+@import '../../../../styling/variables';
+
+.search-bar {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    
+    div {
+        margin: 0 1.5rem;;
+    }
+}
+
+.search-bar label {
+    margin-left: .4rem;
+}
+
+input[type='checkbox'] {
+    accent-color: $primary;
+}

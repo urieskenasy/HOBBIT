@@ -1,0 +1,6 @@
+@use '../../../styling/mixins' as *;
+@use '../../../styling/variables' as *;
+
+.green {
+    background-color: $primary;
+}
