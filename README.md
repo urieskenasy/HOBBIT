@@ -12,4 +12,4 @@ A Social web application that gives users the option to meet and get to know peo
 - HTML
 - JavaScript
 
-[Live Link](https://hobbit-xi.vercel.app/)
+[Live Version](https://hobbit-xi.vercel.app/)
