@@ -1,4 +1,8 @@
-![Screenshot 2023-01-24 at 17 43 06](https://user-images.githubusercontent.com/93989404/214354385-b46096f9-4dcd-4093-aa18-860fc1fc2c63.png)
+<img width="1502" alt="Screenshot 2023-02-08 at 23 28 37" src="https://user-images.githubusercontent.com/93989404/217665752-d2edaa61-3a3e-4096-9f0e-1c4801e8055d.png">
+
+<img width="1504" alt="Screenshot 2023-02-08 at 23 27 02" src="https://user-images.githubusercontent.com/93989404/217665776-3c06eb0b-c030-45ff-a5ea-fb886778a7e2.png">
+
+<img width="1508" alt="Screenshot 2023-02-08 at 23 27 27" src="https://user-images.githubusercontent.com/93989404/217665792-4773e342-7868-45c1-9c73-335b29488eb4.png">
 
 # Hobbit - Meet People Who Share The Same Hobbies 
 
